@@ -1,0 +1,9 @@
+# NAME: WhiteLists
+# AUTHOR: Mirai-Tech
+# UPDATED: 2025-01-23 22:41:53
+# 主要用于误拦截、误分流的调整，该规则置顶使用
+
+payload:
+  - DOMAIN-SUFFIX,openmonitor.alipay.com
+  - DOMAIN-SUFFIX,openmonitor.alipay-eco.com
+  - DOMAIN-SUFFIX,log-upload.mihoyo.com
