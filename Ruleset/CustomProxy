@@ -1,3 +1,8 @@
+# NAME: CustomProxy
+# AUTHOR: Mirai-Tech
+# UPDATED: 2025-01-23 22:54:42
+# 主要用于补充没有被代理规则命中的一些域名，使之能够正常走代理
+
 payload:
   - DOMAIN-SUFFIX,metacubex.one,🌏 全球加速
   - DOMAIN-SUFFIX,saucenao.com,🌏 全球加速
