@@ -1,6 +1,6 @@
 # NAME: WhiteLists
 # AUTHOR: Mirai-Tech
-# UPDATED: 2025-01-23 22:41:53
+# UPDATED: 2025-02-16 20:40:25
 # 主要用于误拦截、误分流的调整，该规则置顶使用
 
 payload:
@@ -11,3 +11,18 @@ payload:
   - DOMAIN-SUFFIX,hkrpg-log-upload.mihoyo.com
   - DOMAIN-SUFFIX,log-upload-eur.mihoyo.com
   - DOMAIN-SUFFIX,log-upload-os.mihoyo.com
+
+  # 运营商自动登录相关
+  - DOMAIN-SUFFIX,auth.wosms.cn
+  - DOMAIN-SUFFIX,config.cmpassport.com
+  - DOMAIN-SUFFIX,enrichgw.10010.com
+  - DOMAIN-SUFFIX,hmrz.wo.cn
+  - DOMAIN-SUFFIX,id.mail.wo.cn
+  - DOMAIN-SUFFIX,id6.me
+  - DOMAIN-SUFFIX,log.cmpassport.com
+  - DOMAIN-SUFFIX,log1.cmpassport.com
+  - DOMAIN-SUFFIX,mdn.open.wo.cn
+  - DOMAIN-SUFFIX,mob.com
+  - DOMAIN-SUFFIX,nishub1.10010.com
+  - DOMAIN-SUFFIX,opencloud.wostore.cn
+  - DOMAIN-SUFFIX,ye.dun.163yun.com
