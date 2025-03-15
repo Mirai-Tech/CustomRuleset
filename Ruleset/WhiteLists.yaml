@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,hkrpg-log-upload.mihoyo.com
   - DOMAIN-SUFFIX,log-upload-eur.mihoyo.com
   - DOMAIN-SUFFIX,log-upload-os.mihoyo.com
+  - DOMAIN-SUFFIX,sms.ads.heytapmobi.com
 
   # 运营商自动登录相关
   - DOMAIN-SUFFIX,auth.wosms.cn
