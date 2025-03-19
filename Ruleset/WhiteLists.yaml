@@ -1,17 +1,23 @@
 # NAME: WhiteLists
 # AUTHOR: Mirai-Tech
-# UPDATED: 2025-02-16 20:40:25
+# UPDATED: 2025-03-19 23:50:51
 # 主要用于误拦截、误分流的调整，该规则置顶使用
 
 payload:
+  # 影响浙二医院公众号网页加载
   - DOMAIN-SUFFIX,openmonitor.alipay.com
   - DOMAIN-SUFFIX,openmonitor.alipay-eco.com
+  
+  # 容易造成环境异常
   - DOMAIN-SUFFIX,log-upload.mihoyo.com
   - DOMAIN-SUFFIX,hkrpg-log-upload-os.hoyoverse.com
   - DOMAIN-SUFFIX,hkrpg-log-upload.mihoyo.com
   - DOMAIN-SUFFIX,log-upload-eur.mihoyo.com
   - DOMAIN-SUFFIX,log-upload-os.mihoyo.com
+  
+  # 欢太服务异常（短信解析问题、智慧弹窗图标加载失败）
   - DOMAIN-SUFFIX,sms.ads.heytapmobi.com
+  - DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 
   # 运营商自动登录相关
   - DOMAIN-SUFFIX,auth.wosms.cn
