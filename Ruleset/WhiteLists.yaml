@@ -20,7 +20,7 @@ payload:
   - DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 
   # 测试是否影响ColorOS系统文件更新
-  - DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net
+  - DOMAIN-SUFFIX,teg.tencent-cloud.net
 
   # 影响数智易正功能使用，个人认为不因为了屏蔽广告影响功能，暂时放行
   - DOMAIN-SUFFIX,compus.xiaofubao.com
