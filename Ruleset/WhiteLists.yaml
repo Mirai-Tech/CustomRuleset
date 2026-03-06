@@ -1,6 +1,6 @@
 # NAME: WhiteLists
 # AUTHOR: Mirai-Tech
-# UPDATED: 2025-3-24 14:03:08
+# UPDATED: 2026-3-6 20:53:50
 # 主要用于误拦截、误分流的调整，该规则置顶使用
 
 payload:
