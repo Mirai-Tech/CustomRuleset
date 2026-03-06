@@ -16,11 +16,9 @@ payload:
   - DOMAIN-SUFFIX,log-upload-os.mihoyo.com
   
   # 欢太服务异常（短信解析问题、智慧弹窗图标加载失败）
-  - DOMAIN-SUFFIX,sms.ads.heytapmobi.com
-  - DOMAIN-SUFFIX,adx.ads.heytapmobi.com
-
-  # 测试是否影响ColorOS系统文件更新
-  # - DOMAIN-SUFFIX,teg.tencent-cloud.net
+  - DOMAIN-SUFFIX,ads.heytapmobi.com
+  # - DOMAIN-SUFFIX,sms.ads.heytapmobi.com
+  # - DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 
   # 影响数智易正功能使用，个人认为不因为了屏蔽广告影响功能，暂时放行
   - DOMAIN-SUFFIX,compus.xiaofubao.com
