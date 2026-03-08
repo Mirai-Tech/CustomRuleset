@@ -1,6 +1,6 @@
 # NAME: WhiteLists
 # AUTHOR: Mirai-Tech
-# UPDATED: 2026-3-6 20:53:50
+# UPDATED: 2026-3-8 21:06:25
 # 主要用于误拦截、误分流的调整，该规则置顶使用
 
 payload:
@@ -17,8 +17,8 @@ payload:
   
   # 欢太服务异常（短信解析问题、智慧弹窗图标加载失败）
   - DOMAIN-SUFFIX,ads.heytapmobi.com
-  # - DOMAIN-SUFFIX,sms.ads.heytapmobi.com
-  # - DOMAIN-SUFFIX,adx.ads.heytapmobi.com
+  - DOMAIN-SUFFIX,sms.ads.heytapmobi.com
+  - DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 
   # 影响数智易正功能使用，个人认为不因为了屏蔽广告影响功能，暂时放行
   - DOMAIN-SUFFIX,compus.xiaofubao.com
