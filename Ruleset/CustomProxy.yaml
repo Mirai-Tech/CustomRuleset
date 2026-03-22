@@ -1,14 +1,18 @@
 # NAME: CustomProxy
 # AUTHOR: Mirai-Tech
-# UPDATED: 2025-7-5 16:54:53
+# UPDATED: 2026-3-22 17:22:26
 # 主要用于补充没有被代理规则命中的一些域名，使之能够正常走代理
 
 payload:
-  - DOMAIN-SUFFIX,metacubex.one,🌏 全球加速
-  - DOMAIN-SUFFIX,saucenao.com,🌏 全球加速
-  - DOMAIN-SUFFIX,ascii2d.net,🌏 全球加速
-  - DOMAIN-SUFFIX,iqdb.org,🌏 全球加速
-  - DOMAIN-SUFFIX,yandex.com,🌏 全球加速
-  - DOMAIN-SUFFIX,volmoe.com,🌏 全球加速
-  - DOMAIN-SUFFIX,kmoe0.com,🌏 全球加速
-  - DOMAIN-SUFFIX,unlock-music.dev,🌏 全球加速
+  # 自定义规则
+  - DOMAIN-SUFFIX,metacubex.one
+  - DOMAIN-SUFFIX,saucenao.com
+  - DOMAIN-SUFFIX,ascii2d.net
+  - DOMAIN-SUFFIX,iqdb.org
+  - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,volmoe.com
+  - DOMAIN-SUFFIX,kmoe0.com
+  - DOMAIN-SUFFIX,unlock-music.dev
+
+  # 微软 Authenticator
+  - DOMAIN-SUFFIX,in.appcenter.ms
