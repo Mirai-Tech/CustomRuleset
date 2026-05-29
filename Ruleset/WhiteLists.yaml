@@ -35,8 +35,7 @@ payload:
   - DOMAIN-SUFFIX,cup.com.cn
   # 淘宝闪购,禁止后加载卡顿
   - DOMAIN-SUFFIX,app-monitor.ele.me
-  # 浦发银行，网络探测
-  - DOMAIN-SUFFIX,hm.baidu.com
+  
   # 运营商自动登录功能放行
   - DOMAIN-SUFFIX,auth.wosms.cn
   - DOMAIN-SUFFIX,config.cmpassport.com
