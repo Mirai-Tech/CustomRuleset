@@ -1,6 +1,6 @@
 # NAME: WhiteLists
 # AUTHOR: Mirai-Tech
-# UPDATED: 2026-4-13 23:09:36
+# UPDATED: 2026-5-29 13:39:06
 # 主要用于误拦截、误分流的调整，该规则置顶使用，一般走直连
 
 payload:
@@ -31,9 +31,12 @@ payload:
   # 跳转应用商店
   - DOMAIN-SUFFIX,adjust.com
   - DOMAIN-SUFFIX,adjust.io
-  # 放行云闪付
+  # 云闪付,影响部分资源加载
   - DOMAIN-SUFFIX,cup.com.cn
-  
+  # 淘宝闪购,禁止后加载卡顿
+  - DOMAIN-SUFFIX,app-monitor.ele.me
+  # 浦发银行，网络探测
+  - DOMAIN-SUFFIX,hm.baidu.com
   # 运营商自动登录功能放行
   - DOMAIN-SUFFIX,auth.wosms.cn
   - DOMAIN-SUFFIX,config.cmpassport.com
