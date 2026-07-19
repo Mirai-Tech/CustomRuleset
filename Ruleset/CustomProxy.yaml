@@ -1,6 +1,6 @@
 # NAME: CustomProxy
 # AUTHOR: Mirai-Tech
-# UPDATED: 2026-3-22 17:22:26
+# UPDATED: 2026-7-19 16:53:16
 # 主要用于补充没有被代理规则命中的一些域名，使之能够正常走代理
 
 payload:
