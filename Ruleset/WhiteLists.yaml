@@ -1,6 +1,6 @@
 # NAME: WhiteLists
 # AUTHOR: Mirai-Tech
-# UPDATED: 2026-5-29 13:39:06
+# UPDATED: 2026-7-19 16:51:26
 # 主要用于误拦截、误分流的调整，该规则置顶使用，一般走直连
 
 payload:
@@ -27,7 +27,7 @@ payload:
   
   # 以下测试放行
   # NTP时间服务器走直连
-  - DOMAIN-SUFFIX,pool.ntp.org
+  # - DOMAIN-SUFFIX,pool.ntp.org
   # 跳转应用商店
   - DOMAIN-SUFFIX,adjust.com
   - DOMAIN-SUFFIX,adjust.io
@@ -37,17 +37,17 @@ payload:
   - DOMAIN-SUFFIX,app-monitor.ele.me
   
   # 运营商自动登录功能放行
-  - DOMAIN-SUFFIX,auth.wosms.cn
-  - DOMAIN-SUFFIX,config.cmpassport.com
-  - DOMAIN-SUFFIX,enrichgw.10010.com
-  - DOMAIN-SUFFIX,hmrz.wo.cn
-  - DOMAIN-SUFFIX,id.mail.wo.cn
-  - DOMAIN-SUFFIX,id6.me
-  - DOMAIN-SUFFIX,log.cmpassport.com
-  - DOMAIN-SUFFIX,log1.cmpassport.com
-  - DOMAIN-SUFFIX,mdn.open.wo.cn
-  - DOMAIN-SUFFIX,mob.com
-  - DOMAIN-SUFFIX,nishub1.10010.com
-  - DOMAIN-SUFFIX,opencloud.wostore.cn
-  - DOMAIN-SUFFIX,ye.dun.163yun.com
+  # - DOMAIN-SUFFIX,auth.wosms.cn
+  # - DOMAIN-SUFFIX,config.cmpassport.com
+  # - DOMAIN-SUFFIX,enrichgw.10010.com
+  # - DOMAIN-SUFFIX,hmrz.wo.cn
+  # - DOMAIN-SUFFIX,id.mail.wo.cn
+  # - DOMAIN-SUFFIX,id6.me
+  # - DOMAIN-SUFFIX,log.cmpassport.com
+  # - DOMAIN-SUFFIX,log1.cmpassport.com
+  # - DOMAIN-SUFFIX,mdn.open.wo.cn
+  # - DOMAIN-SUFFIX,mob.com
+  # - DOMAIN-SUFFIX,nishub1.10010.com
+  # - DOMAIN-SUFFIX,opencloud.wostore.cn
+  # - DOMAIN-SUFFIX,ye.dun.163yun.com
   
