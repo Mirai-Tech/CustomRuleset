@@ -10,9 +10,9 @@ payload:
   - DOMAIN-SUFFIX,ascii2d.net
   - DOMAIN-SUFFIX,iqdb.org
   - DOMAIN-SUFFIX,yandex.com
-  - DOMAIN-SUFFIX,volmoe.com
-  - DOMAIN-SUFFIX,kmoe0.com
   - DOMAIN-SUFFIX,unlock-music.dev
-
+  - DOMAIN-SUFFIX,jinjier.art
+  
   # 微软 Authenticator
   - DOMAIN-SUFFIX,in.appcenter.ms
+  
